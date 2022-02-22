@@ -1,0 +1,76 @@
+@charset 'utf-8';
+
+@font-face{
+  font-family: S-Core_Dream;
+  src:url(/assets/font/S-Core_Dream_OTF/SCDream1.otf) format('otf');
+  font-weight: 100;
+}
+@font-face{
+  font-family: S-Core_Dream;
+  src:url(/assets/font/S-Core_Dream_OTF/SCDream2.otf) format('otf');
+  font-weight: 200;
+}
+@font-face{
+  font-family: S-Core_Dream;
+  src:url(/assets/font/S-Core_Dream_OTF/SCDream3.otf) format('otf');
+  font-weight: 300;
+}
+@font-face{
+  font-family: S-Core_Dream;
+  src:url(/assets/font/S-Core_Dream_OTF/SCDream4.otf) format('otf');
+  font-weight: 400;
+}
+@font-face{
+  font-family: S-Core_Dream;
+  src:url(/assets/font/S-Core_Dream_OTF/SCDream5.otf) format('otf');
+  font-weight: 500;
+}
+@font-face{
+  font-family: S-Core_Dream;
+  src:url(/assets/font/S-Core_Dream_OTF/SCDream6.otf) format('otf');
+  font-weight: 600;
+}
+@font-face{
+  font-family: S-Core_Dream;
+  src:url(/assets/font/S-Core_Dream_OTF/SCDream7.otf) format('otf');
+  font-weight: 700;
+}
+@font-face{
+  font-family: S-Core_Dream;
+  src:url(/assets/font/S-Core_Dream_OTF/SCDream8.otf) format('otf');
+  font-weight: 800;
+}
+@font-face{
+  font-family: S-Core_Dream;
+  src:url(/assets/font/S-Core_Dream_OTF/SCDream9.otf) format('otf');
+  font-weight: 900;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'S-Core_Dream', 'Noto Sans KR', sans-serif;
+}
+
+a:link,
+a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+li {
+  list-style: none;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* /////////// reset.scss /////////// */
